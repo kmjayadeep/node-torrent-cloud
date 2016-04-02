@@ -23,7 +23,7 @@ var server = http.createServer(app);
 var port = parseInt(process.argv[2], 10) ||
 			process.env.PORT || 
 			process.env.OPENSHIFT_NODEJS_PORT || 
-			3000;
+			8089;
 var host = process.env.HOST ||
 			process.env.OPENSHIFT_NODEJS_IP ||
 			"0.0.0.0";
